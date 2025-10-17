@@ -54,6 +54,7 @@ jobs:
             org.opencontainers.image.title=Habit Tracker
             org.opencontainers.image.description=Habit tracking application built with Astro and TypeScript
             org.opencontainers.image.vendor=${{ github.repository_owner }}
+            org.opencontainers.image.source=${{ github.repositoryUrl}}
 
       - name: Build and push Docker image
         id: build
