@@ -9,6 +9,18 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.14.5"
+    "@astrojs/alpinejs": "^0.4.9",
+    "@astrojs/node": "^9.5.0",
+    "@imacrayon/alpine-ajax": "^0.12.4",
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/alpinejs": "^3.13.11",
+    "alpinejs": "^3.15.0",
+    "astro": "^5.14.5",
+    "tailwindcss": "^4.1.14"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.6",
+    "daisyui": "^5.3.7",
+    "ultracite": "^5.6.4"
   }
 }
